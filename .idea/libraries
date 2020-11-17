@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="ant-contrib-1.0b3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Downloads/49884174/CS660-pa2/lib/ant-contrib-1.0b3.jar!/" />
+        <root url="jar://$USER_HOME$/Downloads/49884174/CS660-pa2/lib/jline-0.9.94.jar!/" />
+        <root url="jar://$USER_HOME$/Downloads/49884174/CS660-pa2/lib/junit-4.5.jar!/" />
+        <root url="jar://$USER_HOME$/Downloads/49884174/CS660-pa2/lib/zql.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
