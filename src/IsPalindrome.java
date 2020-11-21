@@ -18,6 +18,33 @@ public class IsPalindrome {
         return true;
     }
 
+    // faster solution with two pointers
+    public static boolean isPalindrome2(String s) {
+        if (s == null) {
+            return false;
+        }
+        int left = 0, right = s.length()-1;
+        while (left < right) {
+            while (left < right && !isValid(s.charAt(left)))
+                left++;
+            while (left < right && !isValid(s.charAt(right)))
+                right--;
+            if (left < right && !isEqual(s.charAt(left), s.charAt(right)))
+                return false;
+            left++; right--;
+
+        }
+        return true;
+    }
+
+    private static boolean isEqual(char a, char b) {
+        return Character.toLowerCase(a) == Character.toLowerCase(b);
+    }
+
+    private static boolean isValid(char c) {
+        return Character.isAlphabetic(c) || Character.isDigit(c);
+    }
+
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
         System.out.println(isPalindrome(s));
