@@ -1,0 +1,2 @@
+#Note
+##Binary Search
