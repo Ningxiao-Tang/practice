@@ -1,3 +1,5 @@
+package BinarySearchTree;
+
 public class FindMinimumInRotatedSortedArray {
     //n == nums.length
     //1 <= n <= 5000

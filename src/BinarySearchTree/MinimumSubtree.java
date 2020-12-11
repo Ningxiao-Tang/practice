@@ -1,3 +1,5 @@
+package BinarySearchTree;
+
 public class MinimumSubtree {
     public TreeNode findSubtree(TreeNode root) {
         TreeNode[] result = new TreeNode[1];

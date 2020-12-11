@@ -1,3 +1,5 @@
+package BinarySearchTree;
+
 public class FlattenBinaryTreeToLinkedList {
     //leetcode 114
     public void flatten(TreeNode root) {

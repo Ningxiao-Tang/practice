@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class QuickSort {
     /*
      *快速排序在大部分时候的时间复杂度都是O(nlogn)，

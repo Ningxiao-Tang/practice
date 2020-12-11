@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class SortColors {
     public static void sortColors(int[] nums) {
         if(nums==null || nums.length<2) return;

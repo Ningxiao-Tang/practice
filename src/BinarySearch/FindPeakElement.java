@@ -1,3 +1,5 @@
+package BinarySearch;
+
 public class FindPeakElement {
     /*
      Given an integer array nums, find a peak element, and return its index.

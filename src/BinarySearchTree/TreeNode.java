@@ -1,3 +1,5 @@
+package BinarySearchTree;
+
 public class TreeNode {
         int val;
         TreeNode left;

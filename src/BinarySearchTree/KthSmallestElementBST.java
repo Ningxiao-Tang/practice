@@ -1,3 +1,5 @@
+package BinarySearchTree;
+
 import java.util.ArrayList;
 
 public class KthSmallestElementBST {
