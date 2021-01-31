@@ -22,9 +22,9 @@ public class collab {
         visited[i] = 1;
         int count = 1;
         for (int j = 0; j < team.size(); j++) {
-            if (team.get(i).charAt(j) == '1' && visited[j] == 0){
-                dfs(team, j, visited);
-                count++;
+            if (team.get(i).charAt(j) == '1'){
+                count += dfs(team, j, visited);
+                System.out.println("i: " +i+" j: "+j+" count: "+ count);
             }
         }
         return count;
@@ -32,9 +32,10 @@ public class collab {
 
     public static void main(String[] args) {
         List<String> team = new ArrayList<>();
-        team.add("110");
-        team.add("110");
-        team.add("001");
+        team.add("1100");
+        team.add("1110");
+        team.add("0110");
+        team.add("0001");
         System.out.println(findMaxTeam(team));
     }
 }
